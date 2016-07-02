@@ -65,6 +65,7 @@ public class RestConfiguration extends Application {
     }
 
     private void addRestResourceClasses(Set<Class<?>> resources) {
+        resources.add(config.NewCrossOriginResourceSharingFilter.class);
         resources.add(org.glassfish.javaee.javascript.backend.todo.JsonMoxyConfigurationContextResolver.class);
         resources.add(org.glassfish.javaee.javascript.backend.todo.ToDoResource.class);
     }

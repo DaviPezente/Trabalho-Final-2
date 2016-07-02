@@ -26,7 +26,7 @@
                 <label class="todo-label" for="add-todo">{{user}}, Adicione um Compromisso</label>
                 <form ng-submit="addItem()">
                     <input id="add-todo" class="textbox"
-                           placeholder="Comprar WeyProtein. BIRL" ng-model="newToDoDescription"
+                           placeholder="Digitar Compromisso" ng-model="newToDoDescription"
                            autofocus required>
                     
                 </form>
@@ -60,4 +60,7 @@
                 </div>
             </div>
         </div>
+        
+        <a href="index.html">Retornar</a>
+
 </html>

@@ -40,4 +40,6 @@
                        ng-model="newMessage" autofocus required>
             </form>
         </div>
+        <a href="index.html">Retornar</a>
+        </body>
 </html>

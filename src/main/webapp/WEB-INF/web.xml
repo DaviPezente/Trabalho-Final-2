@@ -10,16 +10,16 @@
             <web-resource-name>Secure Interfaces</web-resource-name>
             <url-pattern>/todo.jsp</url-pattern>
             <url-pattern>/chat.jsp</url-pattern>
-            
+            <!--
             <url-pattern>/resources/todo/*</url-pattern>
             <url-pattern>/chat</url-pattern>
-            
+            -->
             <http-method>GET</http-method>
-            
+            <!--
             <http-method>POST</http-method>
             <http-method>PUT</http-method>
             <http-method>DELETE</http-method>
-            
+            -->
         </web-resource-collection>
         <auth-constraint>
             <role-name>javascript</role-name>
